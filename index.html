@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <meta http‐equiv="refresh" content="20;URL=./2PantillaBasica.htm" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divisones Sem&aacute;ticas</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="css/estiloBasico.css">
+</head>
+<body>
+  <div id="agrupar">
+
+  <header id="cabecera">
+      <h1>CV</h1>
+  </header>
+
+  <nav id="menu">
+    <ul>
+    <li><a href="index.html">principal</a></li>
+    <li><a href="fotos.html">fotos</a></li>
+    <li><a href="#">videos</a></li>
+    <li><a href="#">contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="seccion">
+      <article><!--Primer articulo-->
+        <header>
+              <hgroup>
+                  <h1>Datos personales</h1>
+                  <h4>Nombre completo: Moran De la Cruz Aziel</h4>
+                  <h5>Edad: 24</h5>
+                  <h6>Domicilio: Cordoba Ver</h6>
+              </hgroup>
+              <time datetime="2011-12-10" pubdate>
+                    publicado 04-03-2024
+              </time>
+        </header>
+          <figure>
+   <video width="500" height="300" controls>   
+    <source src="yoo.mp4" type="video/mp4"></source>
+   </video>
+  
+                <figcaption>
+                  
+                </figcaption>
+          </figure>
+
+          <footer>
+              <p>comentarios (5)</p>
+          </footer>
+      </article><!-- Fin Primer articulo-->
+
+      <article><!-- Segundo articulo-->
+          <header>
+            <hgroup>
+                <h1>Mi preparacion</h1>
+                <h4>Donde estudie</h4>
+            </hgroup>
+            <time datetime="2011-12-15" pubdate>
+                publicado 15-12-2011
+            </time>
+         </header>
+         Estudie en el tecnologico de orizaba cursando la carrera en ingenieria en sistemas computacionales
+         <figure>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7550.686921068274!2d-96.90681540000004!3d18.871838300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1709608511203!5m2!1ses-419!2smx" width="600" height="450" style="border:0;"   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+         </figure>
+         <footer>
+            <p>comentarios (5)</p>
+          </footer>
+    </article> <!-- Fin Segundo articulo-->
+
+</section> <!--Fin de section seccion-->
+
+  <aside id="columna"> <!-- aside -->
+      <blockquote>Mis redes sociales</blockquote>
+      <blockquote>Mensaje número dos</blockquote>
+      <a href="https://www.facebook.com/aziel.mdc?locale=es_LA/">
+       <figure>
+         <img src="facebook.png" width="200" alt="facebook" >
+       </figure>
+     </a>
+
+     <a href="https://www.instagram.com/">
+        <figure>
+          <img src="instagram.png" alt="instagram">
+        </figure>
+      </a>
+  </aside> <!-- Fin aside -->
+
+  <footer id="pie">
+      Derechos Reservados Moran De la Cruz Aziel &copy; 2024-2024
+      <address>
+          <a href="http://www.itorizaba.edu.mx">ITO</a>
+      </address>
+  </footer>
+
+</div> <!--fin div agrupar-->
+
+</body>
+</html>            
